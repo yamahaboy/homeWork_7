@@ -18,6 +18,9 @@
 }
 
 .main-block-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -31,17 +34,19 @@
 .main-block-header::after{
   content: "";
   position: absolute;
-  /* bottom: -70px; */
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   width: 50px;
-  height: 1px;
-  background-color: black;
-  
+  height: 2px;
+  background-color: #ff007f;
 }
 
 
 .main-block-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
