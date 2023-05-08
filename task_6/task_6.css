@@ -1,0 +1,51 @@
+.main-block {
+  margin: auto;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  background: radial-gradient(100% 100% at 46.86% 0%, #ff007f 0%, #7f00ff 100%);
+}
+
+.main-block-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-block-header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main-block-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-block-header::after{
+  content: "";
+  position: absolute;
+  /* bottom: -70px; */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  
+}
+
+
+.main-block-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+}
