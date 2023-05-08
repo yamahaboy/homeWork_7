@@ -1,0 +1,34 @@
+Homework 
+
+!Домашнее задание необходимо загружать в Git.
+
+Попытаться объеденить все блоки с прошлый домашних работ!!!
+Чтобы видеть полноценный сайт!!!
+
+
+Задание 1.
+Верстка секций Design, Banner, Header, Footer. 
+При создании верстки использовать технологию БЭМ.
+Подключаем шрифты.
+Каждую новую секцию верстаем во внешнем файле стилей.
+Ширина ограничевающего контейнера - 1170px.
+Поля - 15px.
+Ссылка на макет в Figma:
+https://www.figma.com/file/D3hs2PC8uClFPe6iTTNXat/TMS_front?node-id=617%3A1270
+
+Задание 2. 
+Изучаем теги <audio>, <video>.
+https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content
+
+Задание 3.
+Просмотреть видео:
+Изучение свойства transform:
+https://www.youtube.com/watch?v=uQEGUpsnqsw
+
+Подключение иконочного шрифта:
+https://www.youtube.com/watch?v=QYwI3LRCnRE
+
+Задание 6. *
+Сверстать блок 
+"10,000 Satisfied clients around the world"
+https://www.figma.com/file/CXkB0sUufAtLPHojWkPsYk/CoinBase?node-id=32%3A2702
