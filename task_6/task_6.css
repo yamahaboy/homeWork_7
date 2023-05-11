@@ -1,0 +1,296 @@
+.html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.main-block {
+  margin: auto;
+  text-align: center;
+  max-width: 100%;
+  height: 1000px;
+  background: radial-gradient(100% 100% at 46.86% 0%, #fd749b 0%, #281ac8 100%);
+}
+
+.main-block-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-block-header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main-block-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-block-header::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background-color: #ff007f;
+}
+
+.main-block-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.circle-1 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 24%;
+}
+
+.circle-2 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 28%;
+  top: 50%;
+}
+
+.circle-3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 66%;
+  left: 36%;
+}
+
+.circle-4 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 52%;
+  left: 38%;
+}
+
+.circle-5 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 59%;
+  left: 42%;
+}
+
+.circle-6 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 46%;
+}
+
+.circle-7 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 53%;
+  left: 48%;
+}
+
+.circle-8 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 57%;
+  left: 56%;
+}
+
+.circle-9 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 62%;
+}
+
+.circle-10 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 76%;
+  left: 65%;
+}
+
+.circle-11 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 63%;
+}
+
+.circle-12 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 63%;
+  left: 68%;
+}
+
+.circle-13 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 47%;
+  left: 73%;
+}
+
+.big-egg {
+  position: absolute;
+  width: 130px;
+  height: 155px;
+  background: radial-gradient(100% 100% at 46.86% 0%, #281ac8 0%, #fd749b 100%);
+  background-size: 100% 100%;
+  background-image: linear-gradient(to right, #281ac8, #fd749b);
+  border-radius: 50% / 60% 60% 40% 40%;
+  transform: rotate(-110deg);
+  margin: 10px;
+  top: 5%;
+  left: 15%;
+}
+
+.small-egg {
+  position: absolute;
+  width: 75px;
+  height: 90px;
+  background: radial-gradient(100% 100% at 46.86% 0%, #281ac8 0%, #fd749b 100%);
+  background-size: 100% 100%;
+  background-image: linear-gradient(to right, #281ac8, #fd749b);
+  border-radius: 50% / 60% 60% 40% 40%;
+  transform: rotate(-110deg);
+  margin: 10px;
+  left: 78%;
+  top: 77%;
+}
+
+.push-block {
+  display: flex;
+  position: absolute;
+  opacity: 0.8;
+  top: 63%;
+  left: 52%;
+}
+
+.push-block-content {
+  width: 420px;
+  height: auto;
+  position: absolute;
+  border-radius: 15px;
+  background: #c4c4c4;
+}
+
+.push-block-content::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  margin-top: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 20px 15px 0;
+  border-color: transparent #c4c4c4 transparent transparent;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.push-block-from {
+  margin-left: 30px;
+}
+.push-block-from {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 65px;
+  color: #333333;
+}
+
+.bit-coin-img {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.stars-img {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.stars-img img {
+  margin-right: 2px;
+}
+
+.push-block-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.push-block-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
