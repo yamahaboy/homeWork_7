@@ -2,7 +2,7 @@
     counter-reset: page;
   }
 
-.main-tab-block::before {
+.axit-main-block::before {
     counter-increment: page 0;
     content: " " counter(page);
     position: absolute;
