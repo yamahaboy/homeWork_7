@@ -1,0 +1,192 @@
+.main-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+}
+
+.cross-icon {
+  align-self: flex-end;
+  margin-right: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 25px;
+  height: 25px;
+}
+
+.cross-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="tel"],
+input[type="password"],
+input[type="checkbox"] {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="tel"],
+input[type="password"] {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 83px;
+  width: 385px;
+  height: 50px;
+}
+
+input[type="tel"],
+input[type="password"] {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.pass-container img{
+  position: absolute;
+  left: 59%;
+  top:40.5%;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 45px;
+}
+
+input[type="checkbox"] {
+  border: 0.9px solid #bdbdbd;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.button-block::after {
+  content: "";
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 385px;
+  height: 1px;
+  background-color: #bdbdbd;
+}
+
+.enter-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+  border-radius: 49px;
+  font-family: "Spectral SC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.forget-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.space {
+  margin-left: 25px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.regist-button {
+  display: flex;
+  justify-content: center;
+}
+
+.regist-btn {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 80px;
+  border: 1px solid #bdbdbd;
+  border-radius: 49px;
+  background-color: transparent;
+  font-family: "Spectral SC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
