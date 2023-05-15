@@ -5,7 +5,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: auto;
     border: 1px solid #C6CBCD;
     border-top: none ;
     border-bottom: none ;

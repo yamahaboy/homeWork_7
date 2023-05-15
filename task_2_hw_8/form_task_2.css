@@ -1,0 +1,160 @@
+.main-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+  max-width: 1000px;
+  height: auto;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.form-image {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.form-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 400px;
+  height: 350px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #371030;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-phone-container {
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.email-comment-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text-1"],
+input[type="tel"] {
+  display: flex;
+  width: 140px;
+}
+
+input[type="text-1"],
+input[type="tel"],
+input[type="email"],
+input[type="text-2"] {
+  border: none;
+  padding-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #371030;
+}
+
+input[type="text-1"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+input[type="text-2"]::placeholder {
+  color: #371030;
+  border-bottom: 2px solid #371030;
+}
+
+input[type="email"] {
+  margin-bottom: 20px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form {
+  border: none;
+  background-color: #ffb0ba;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border-radius: 100px;
+  width: 330px;
+  height: 50px;
+}
+
+.btn-form {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #9a3c48;
+}
+
+.back-flower {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  overflow: hidden;
+  top: -10%;
+  left: 2%;
+}
+
+.back-flower img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(10deg);
+}
